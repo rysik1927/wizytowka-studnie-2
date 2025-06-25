@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f8ff;
+  color: #003366;
+}
+
+header {
+  background: #0099cc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.services, .contact {
+  padding: 2rem;
+}
+
+.services ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form label {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+button {
+  background: #0099cc;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0077aa;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #003366;
+  color: white;
+}
